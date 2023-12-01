@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My family</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <nav class="bg-pink-300">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="relative flex h-16 items-center justify-between">
+                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                    <!-- Mobile menu button-->
+                    <button type="button"
+                        class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                        aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="absolute -inset-0.5"></span>
+                        <span class="sr-only">Open main menu</span>
+                        <!--
+                  Icon when menu is closed.
+      
+                  Menu open: "hidden", Menu closed: "block"
+                -->
+                        <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        <!--
+                  Icon when menu is open.
+      
+                  Menu open: "block", Menu closed: "hidden"
+                -->
+                        <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                    <div class="flex flex-shrink-0 items-center">
+                        <img class="h-8 w-auto"
+                            src="https://i.postimg.cc/jj3pb2Zp/da-high-resolution-logo-black-transparent.png"
+                            alt="Your Company">
+                    </div>
+                    <div class="hidden sm:ml-6 sm:block">
+                        <div class="flex space-x-4">
+                            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                            <a href="index.html"
+                                class="text-gray-800 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                                aria-current="page">Home 🩷</a>
+                            <a href="hobbies.html"
+                                class="text-gray-800 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Hobbies</a>
+                            <a href="likes.html"
+                                class="text-gray-800 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Likes</a>
+                            <a href="family.html"
+                                class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium">Family</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="sm:hidden" id="mobile-menu">
+            <div class="space-y-1 px-2 pb-3 pt-2">
+                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+                    aria-current="page">Home</a>
+                <a href="#"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Hobbies</a>
+                <a href="#"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Likes</a>
+                <a href="#"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Family</a>
+            </div>
+        </div>
+    </nav>
+    <div class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+        <div class="absolute inset-0 -z-10 overflow-hidden">
+            <svg class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+                aria-hidden="true">
+                <rect width="100%" height="100%" stroke-width="0" fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
+            </svg>
+        </div>
+        <div
+            class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+            <div
+                class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+                <div class="lg:pr-4">
+                    <div class="lg:max-w-lg">
+                        <p class="text-xl font-semibold leading-7 text-indigo-600">The best for last - our family
+                        </p>
+                        <br />
+                        <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">The Boss</h2>
+                        <br />
+                        <p class="mt-6 text-xl leading-8 text-gray-700">Frankie is the big boss. We work for him and
+                            carry
+                            out his orders to a high standard, always going above and beyond.</p>
+                        <p class="mt-6 text-xl leading-8 text-gray-700">Frankie is a rescue axolotl who came to us in
+                            poor
+                            health but recovered marvelously and now has got us wrapped around his little finger (he
+                            does
+                            have little fingers).</p>
+                        <p class="mt-6 text-xl leading-8 text-gray-700">His favourite meal consists of worms and his
+                            preferred pastime activity is to wiggle around the tank with the grace of a sausage.</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+                <img class="w-3/4 h-[600px] object-cover max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10"
+                    src="https://i.postimg.cc/brwD84sV/IMG-2141.jpg" alt="Frankie axolotl">
+            </div>
+            <div
+                class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+            </div>
+        </div>
+        <div
+            class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+            <div
+                class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+                <div class="lg:pr-4">
+                    <div class="lg:max-w-lg">
+                        <br />
+                        <br />
+                        <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">My husband and I
+                        </h2>
+                        <br />
+                        <p class="mt-6 text-xl leading-8 text-gray-700">Serving in the Met for a couple of years is now
+                            serving me back for life!</p>
+                        <p class="mt-6 text-xl leading-8 text-gray-700">I joined a manhunt and ended up
+                            catching the right guy - my guy.</p>
+                        <p class="mt-6 text-xl leading-8 text-gray-700">Thanks to my wonderful husband, my formerly
+                            hard-to-pronounce surname is now even harder-to-pronounce and I love it!</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+                <img class="w-3/4 h-[600px] object-cover max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10"
+                    src="https://i.postimg.cc/1Xv4pGnz/644e0eba-f595-4d68-bc22-c4b1d279fdd9.jpg" alt="My husband and I">
+            </div>
+            <div
+                class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+            </div>
+        </div>
+</body>
+
+</html>
